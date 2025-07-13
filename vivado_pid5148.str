@@ -1,0 +1,189 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 5148
+License: Customer
+
+Current time: 	Wed Dec 14 03:10:54 PKT 2022
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	E:/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	E:/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	syeda
+User home directory: C:/Users/syeda
+User working directory: D:/DLDProject/again/project_finaledld - Copy/project_finaledld - Copy
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: E:/Vivado
+HDI_APPROOT: E:/Vivado/2020.1
+RDI_DATADIR: E:/Vivado/2020.1/data
+RDI_BINDIR: E:/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/syeda/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/syeda/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/syeda/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	E:/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/DLDProject/again/project_finaledld - Copy/project_finaledld - Copy/vivado.log
+Vivado journal file location: 	D:/DLDProject/again/project_finaledld - Copy/project_finaledld - Copy/vivado.jou
+Engine tmp dir: 	D:/DLDProject/again/project_finaledld - Copy/project_finaledld - Copy/.Xil/Vivado-5148-DESKTOP-6VAKHAU
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: E:/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: E:/Vivado/2020.1
+XILINX_VIVADO: E:/Vivado/2020.1
+XILINX_VIVADO_HLS: E:/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,017 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\DLDProject\again\project_finaledld - Copy\project_finaledld - Copy\project_finaledld.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/DLDProject/again/project_finaledld - Copy/project_finaledld - Copy/project_finaledld.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/DLDProject/again/project_finaledld - Copy/project_finaledld - Copy/project_finaledld.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'Z:/project_finaledld' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 99 MB (+101335kb) [00:00:20]
+// [Engine Memory]: 1,017 MB (+914655kb) [00:00:20]
+// [GUI Memory]: 116 MB (+12082kb) [00:00:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  4071 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2020.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 53 MB. Current time: 12/14/22, 3:10:59 AM PKT
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 1024.340 ; gain = 0.000 
+// Project name: project_finaledld; location: D:/DLDProject/again/project_finaledld - Copy/project_finaledld - Copy; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 127 MB (+5957kb) [00:02:38]
+// Elapsed time: 174 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MovementFSM (movefsm.v)]", 7, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MovementFSM (movefsm.v)]", 7, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("movefsm.v", 288, 151); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_top.v", 1); // m (l, cs)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "movefsm.v", 2); // m (l, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v), pg : pixel_gen (pixel_gen.v)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v), pg : pixel_gen (pixel_gen.v)]", 6, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v), pg : pixel_gen (pixel_gen.v)]", 6, false); // B (F, cs)
+selectCodeEditor("pixel_gen.v", 155, 110); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "movefsm.v", 2); // m (l, cs)
+selectCodeEditor("movefsm.v", 110, 26); // bP (w, cs)
+selectCodeEditor("movefsm.v", 210, 40); // bP (w, cs)
+typeControlKey((HResource) null, "movefsm.v", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pixel_gen.v", 3); // m (l, cs)
+typeControlKey((HResource) null, "pixel_gen.v", 'v'); // bP (w, cs)
+selectCodeEditor("pixel_gen.v", 174, 110); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("pixel_gen.v", 194, 70); // bP (w, cs)
+selectCodeEditor("pixel_gen.v", 198, 63); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("pixel_gen.v", 328, 61); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 17 seconds
+closeMainWindow("project_finaledld - [D:/DLDProject/again/project_finaledld - Copy/project_finaledld - Copy/project_finaledld.xpr] - Vivado 2020.1"); // cs
+// Run Command: PAResourceCommand.PACommandNames_EXIT
+// A (cs): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Exit Vivado"); // A (cs)
+selectCodeEditor("pixel_gen.v", 211, 227); // bP (w, cs)
+// [GUI Memory]: 134 MB (+405kb) [00:09:39]
+// Elapsed time: 440 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8); // B (F, cs)
+// PAPropertyPanels.initPanels (DF.xdc) elapsed time: 0.3s
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DF.xdc]", 10, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DF.xdc]", 10, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, DF.xdc]", 10, false); // B (F, cs)
+selectCodeEditor("DF.xdc", 360, 205); // bP (w, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "start", true); // l (au, cs)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "start"); // l (au, cs)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l (au, cs)
+selectCodeEditor("DF.xdc", 462, 221); // bP (w, cs)
+// Elapsed time: 120 seconds
+selectCodeEditor("DF.xdc", 170, 189); // bP (w, cs)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1709 ms.
+// bz (cs):  Resetting Runs : addNotify
+// Elapsed time: 61 seconds
+selectButton("OptionPane.button", "Cancel Process"); // JButton (v, B)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// Elapsed time: 297 seconds
+selectCodeEditor("DF.xdc", 217, 166); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pixel_gen.v", 3); // m (l, cs)
+// Elapsed time: 254 seconds
+selectCodeEditor("pixel_gen.v", 131, 255); // bP (w, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v), pg : pixel_gen (pixel_gen.v)]", 6); // B (F, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 72 MB. Current time: 12/14/22, 3:41:01 AM PKT
+// Elapsed time: 1285 seconds
+selectCodeEditor("pixel_gen.v", 95, 17); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 64 MB. Current time: 12/14/22, 4:11:02 AM PKT
+// Elapsed time: 912 seconds
+selectCodeEditor("pixel_gen.v", 26, 250); // bP (w, cs)
